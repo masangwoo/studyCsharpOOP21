@@ -46,7 +46,8 @@ namespace ClassTestApp
 
         public override void Sleep()
         {
-            base.Sleep();
+           // base.Sleep(); 부모의 sleep메소드 실행
+           //이후 자식 클래스의 sleep내용 실행
             Console.WriteLine($"{this.Color}고양이 {this.Name}이(가) 잡니다!");
         }
     }

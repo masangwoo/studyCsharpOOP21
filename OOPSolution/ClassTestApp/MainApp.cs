@@ -42,6 +42,12 @@ namespace ClassTestApp
             noname.Meow();
             noname.Sleep();
 
+            var list = (First : "Cat",Second : "Dog", Third : "Pig",55);
+            Console.WriteLine($"튜플 첫번째 : { list.First}");
+            Console.WriteLine($"튜플 두번째 : { list.Item2}");
+            Console.WriteLine($"튜플 세번째 : { list.Third}");
+            Console.WriteLine($"튜플 네번째 : { list.Item4}");
+
         }
     }
 }
