@@ -9,19 +9,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceTestApp", "Interfa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsingInterfaceTestApp", "UsingInterfaceTestApp\UsingInterfaceTestApp.csproj", "{7C836F2A-A72E-4415-9D3D-FD658FBE8296}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassTestApp", "AbstractClassTestApp\AbstractClassTestApp.csproj", "{824F8980-791A-4045-8891-E62E769BA5D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassTestApp", "AbstractClassTestApp\AbstractClassTestApp.csproj", "{824F8980-791A-4045-8891-E62E769BA5D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyTestApp", "PropertyTestApp\PropertyTestApp.csproj", "{BAA13FC0-2DAA-49D1-841B-4AF838BE23BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyTestApp", "PropertyTestApp\PropertyTestApp.csproj", "{BAA13FC0-2DAA-49D1-841B-4AF838BE23BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayTestApp", "ArrayTestApp\ArrayTestApp.csproj", "{806F71AD-26BE-4DC7-B1AC-E1E6F437E11A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayTestApp", "ArrayTestApp\ArrayTestApp.csproj", "{806F71AD-26BE-4DC7-B1AC-E1E6F437E11A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayClassTestApp", "ArrayClassTestApp\ArrayClassTestApp.csproj", "{36B30FC7-BF6A-42B4-8D72-D975E3C4C75E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayClassTestApp", "ArrayClassTestApp\ArrayClassTestApp.csproj", "{36B30FC7-BF6A-42B4-8D72-D975E3C4C75E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionTestApp", "CollectionTestApp\CollectionTestApp.csproj", "{39595D79-FE3F-4548-A8E8-B1CA6AB2B2C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionTestApp", "CollectionTestApp\CollectionTestApp.csproj", "{39595D79-FE3F-4548-A8E8-B1CA6AB2B2C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTestApp", "QueueTestApp\QueueTestApp.csproj", "{D5A3CEE7-3EFF-4D85-B372-464078110F4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTestApp", "QueueTestApp\QueueTestApp.csproj", "{D5A3CEE7-3EFF-4D85-B372-464078110F4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerTestApp", "IndexerTestApp\IndexerTestApp.csproj", "{BC411C45-DB8F-4D20-A5D3-9722FC9D1AE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexerTestApp", "IndexerTestApp\IndexerTestApp.csproj", "{BC411C45-DB8F-4D20-A5D3-9722FC9D1AE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTestApp", "GenericTestApp\GenericTestApp.csproj", "{90AF9002-8CE7-4562-8258-3F62292E04F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTestApp2", "GenericTestApp2\GenericTestApp2.csproj", "{6DF6D150-A536-42F8-9EF9-5680F5B67150}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMyListApp", "GenericMyListApp\GenericMyListApp.csproj", "{A41603DF-A651-4078-ABBB-149C398BE408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCollectionApp", "GenericCollectionApp\GenericCollectionApp.csproj", "{EA0782E2-34BD-4787-8AC5-CCBDB00EDAAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionTestApp", "ExceptionTestApp\ExceptionTestApp.csproj", "{BA28FD10-A215-4926-B4C8-7DE40ACE111D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +79,26 @@ Global
 		{BC411C45-DB8F-4D20-A5D3-9722FC9D1AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC411C45-DB8F-4D20-A5D3-9722FC9D1AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC411C45-DB8F-4D20-A5D3-9722FC9D1AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AF9002-8CE7-4562-8258-3F62292E04F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AF9002-8CE7-4562-8258-3F62292E04F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AF9002-8CE7-4562-8258-3F62292E04F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AF9002-8CE7-4562-8258-3F62292E04F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF6D150-A536-42F8-9EF9-5680F5B67150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF6D150-A536-42F8-9EF9-5680F5B67150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF6D150-A536-42F8-9EF9-5680F5B67150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF6D150-A536-42F8-9EF9-5680F5B67150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41603DF-A651-4078-ABBB-149C398BE408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41603DF-A651-4078-ABBB-149C398BE408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41603DF-A651-4078-ABBB-149C398BE408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41603DF-A651-4078-ABBB-149C398BE408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0782E2-34BD-4787-8AC5-CCBDB00EDAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0782E2-34BD-4787-8AC5-CCBDB00EDAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0782E2-34BD-4787-8AC5-CCBDB00EDAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0782E2-34BD-4787-8AC5-CCBDB00EDAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA28FD10-A215-4926-B4C8-7DE40ACE111D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA28FD10-A215-4926-B4C8-7DE40ACE111D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA28FD10-A215-4926-B4C8-7DE40ACE111D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA28FD10-A215-4926-B4C8-7DE40ACE111D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
