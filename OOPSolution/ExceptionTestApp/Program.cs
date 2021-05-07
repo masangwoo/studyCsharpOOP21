@@ -49,7 +49,7 @@ namespace ExceptionTestApp
 
 
             }
-            catch (IndexOutOfRangeException ex)
+            /*catch (IndexOutOfRangeException ex)
             {
                 Console.WriteLine($"예외발생 : {ex.Message}");
                 //IndexOutOfRange예외시 다른 일 처리
@@ -68,7 +68,7 @@ namespace ExceptionTestApp
                 Console.WriteLine($"예외발생 : {ex.Message}");
                 //NullReferenceException예외시 다른 일 처리
                 Console.WriteLine("입력좀 제발 제대로좀 ");
-            }
+            }*/
 
             catch (Exception ex)//퉁치기
             {
@@ -78,7 +78,7 @@ namespace ExceptionTestApp
 
             finally 
             {
-                
+                Console.WriteLine("Finally, 언제든지 실행됨");
             }
 
 
